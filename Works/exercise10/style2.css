@@ -1,0 +1,52 @@
+.head{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(61 236 188 / 40%);
+    margin-bottom: 25px;
+}
+.head h1{
+    color: white;
+    padding-left: 30px;
+    padding-top:25px ;
+    padding-bottom: 15px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color:black;
+    border-radius: 5px;
+    
+
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    padding-top: 18px; 
+} 
+
+    
+
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 0px 0px 30px;
+    
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+.navbar  h1{
+    font-weight: 500;
+    color: white;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+    
+}
+
+
