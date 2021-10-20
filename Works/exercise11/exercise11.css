@@ -1,0 +1,25 @@
+body{ 
+     margin: 0px ; 
+}
+.container{
+    width: 600px;
+    border: 10px solid rgb(70, 70, 70);
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 10px;
+    background-color: rgb(70, 70, 70);
+    margin: 0 auto;
+
+}
+.container div{
+    background-color: white;
+
+
+
+}
+.container div:nth-child(2){
+    background-color: rgb(223, 223, 46);
+
+}
