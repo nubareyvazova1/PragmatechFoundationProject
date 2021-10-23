@@ -1,0 +1,70 @@
+.root{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    box-shadow: 0 3px 20px 0; 
+    align-items: center;
+    width: 100% ;
+    position: relative;
+
+
+}
+.root-info{
+    display: flex;
+    align-items: center;
+    
+
+
+}
+.root-info p{
+    margin-left: 25px;
+
+}
+.root-info a {
+    margin-left: 25px;
+    color: black ;
+
+}
+.root-info button {
+    margin-left: 25px;
+    border: none;
+    background-color:blue ;
+    text-decoration: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 120;
+
+
+    
+    
+    
+
+}
+.root-info button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 13px 50px 13px 35px;
+    
+
+    
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end ;
+    margin: 30px;
+
+   
+}
+.navbar a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: #000;
+}
+main-container img{
+    margin-left: 300px;
+    
+}
+
+
+
