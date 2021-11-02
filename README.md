@@ -1,2 +1,2 @@
 # PragmatechFoundationProject
-[link](https://technext.github.io/nitro2/index.html\)
+[link](https://technext.github.io/nitro2/index.html)
