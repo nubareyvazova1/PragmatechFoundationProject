@@ -24,18 +24,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.2);
 }
     
 
 .navbar-nav ul il a{
     text-decoration: none;
-    color: white;
     margin: 10px;
+    color:#fff;
     
 
 }
 #main-container{
-    color:white;
+    color:#fff;
     
 }
 body{
@@ -45,7 +46,27 @@ body{
     padding-left: 30px;
 }
 .greetings-box button{
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 30px;
+    width: 150px;
+    padding: 20px;
+    border: none;
+
     
 }
+.greetings-box h1{
+    font-size:3rem;
+    margin-bottom: 12px;
+    margin-top: 12vh;
+    font-weight: 680;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing:3px;
 
+}
+.greetings-box h3{
+    font-size: 27px;
+    font-weight: 100;
+}
 
