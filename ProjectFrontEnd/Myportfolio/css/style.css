@@ -1,3 +1,4 @@
+/* navbar start */
 .main-box{
     width: 100%;
     height: 625px;
@@ -10,7 +11,15 @@
     width: 100%;
     height: 97px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.2);
+}
+.logo{
+    line-height: 1.2;
+    font-size: 2rem;
+    font-weight: 400;
+    
 }
 .greetings-box{
     width: 100%;
@@ -20,27 +29,30 @@
     align-items: center;
     flex-direction: column;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid  rgba(255, 255, 255, 0.2);
-}
+
     
 
 .navbar-nav ul il a{
     text-decoration: none;
     margin: 10px;
-    color:#fff;
+    color:rgb(209, 202, 202);
     
 
 }
-#main-container{
+.navbar-nav ul il a :active{
     color:#fff;
-    
 }
+#nav-container{
+    color:#fff ;
+}
+    
+
 body{
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.7;
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem;
 }
 .logo p{
     padding-left: 30px;
@@ -49,9 +61,13 @@ body{
     color: #fff;
     background-color: #007bff;
     border-radius: 30px;
-    width: 150px;
-    padding: 20px;
+    
+    padding:14px 30px;
     border: none;
+    font-size: 16px;
+    
+    
+
 
     
 }
@@ -66,7 +82,53 @@ body{
 
 }
 .greetings-box h3{
-    font-size: 27px;
+    font-size: 24px;
     font-weight: 100;
+    line-height: 1.5;
+    margin-bottom:48px;
 }
+/* navbar end */
+/* about me start */
+.about-item h1{
+   text-align: center;
+   font-size:40px ;
+   color: #007bff;
+   font-weight: 700;
+   margin-bottom: 16px;
+   padding: 80px 0px;
+
+}
+.about-content{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.image-about img{ 
+    width: 540px;
+    height: 360.094;
+    
+}
+.image-about{
+    border: 1px solid red;
+}
+.about-info{
+    border: 1px solid blue;
+    width: 445px;
+    height: 424.094px;
+    padding: 15px;
+}
+.info-boxs h2{
+    color: #000;
+    font-size: 28px;
+    margin-bottom: 19px;
+}
+.info-boxs p{
+    margin-bottom: 17px;
+}
+
+
+
+/* about me end */
 
