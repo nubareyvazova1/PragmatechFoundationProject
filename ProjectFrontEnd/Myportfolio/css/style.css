@@ -49,10 +49,10 @@
 
 body{
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    line-height: 1.7;
+    line-height:27.2px;
     color: gray;
-    font-weight: 400;
-    font-size: 1rem;
+    font-weight: 410;
+    font-size: 17px; 
 }
 .logo p{
     padding-left: 30px;
@@ -110,11 +110,11 @@ body{
     height: 360.094;
     
 }
-.image-about{
-    border: 1px solid red;
-}
+
+    
+
 .about-info{
-    border: 1px solid blue;
+    
     width: 445px;
     height: 424.094px;
     padding: 15px;
@@ -131,4 +131,73 @@ body{
 
 
 /* about me end */
+/* my Features start */
+.Feature-head h1{
+   text-align: center;
+   font-size:40px ;
+   color: #007bff;
+   font-weight: 700;
+   margin-bottom: 20px;
+   padding:80px 60px 0px 0px;
+   
+
+}
+.Feature-head h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.Feature-image img{
+    width: 540px;
+    height:360px;
+}
+.Feature-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Feature-image {
+    
+    
+    align-items: center;
+    
+    width: 540px;
+    height:360px;
+}
+.Feature-info h1{
+    font-size:40px ;
+    color: #007bff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+.Feature-info h3{
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-bottom: 20px; 
+}
+.Feature-info button{
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 30px;
+    border: none;
+    padding:13px 33px;
+    font-size: 16px; 
+}
+.Feature-info{
+    width: 445px;
+    height: 347px;
+    
+    line-height: 1.2;
+    
+}
+.Feature-info p{
+    margin-bottom: 20px;
+}
+
+
+/* my Features end */
 
