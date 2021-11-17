@@ -132,6 +132,9 @@ body{
 
 /* about me end */
 /* my Features start */
+#My-Features{
+    margin-bottom: 30px;
+}
 .Feature-head h1{
    text-align: center;
    font-size:40px ;
@@ -200,4 +203,37 @@ body{
 
 
 /* my Features end */
+/*My skills start  */
+.skill-box h1{
+    font-size:40px ;
+    color: #007bff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+.skill-info{
+    width: 1140px;
+    height: 554px;
+    margin: 0 auto; 
+    border:1px solid goldenrod;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.skill-box{
+    width: 100%;
+    height: 666px;
+    background-color: rgb(245, 245, 245);
+    padding: 2em;
+    margin-top: 30px;
+    
+}
+.skill-info div{
+    border: 1px solid mediumorchid;
+    height: 253px;
+    padding: 15px;
+    
+}
+
+/*My skills end */
 
