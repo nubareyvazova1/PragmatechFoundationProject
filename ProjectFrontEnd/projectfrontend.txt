@@ -1,0 +1,26 @@
+<div class="comtact-info">
+                    <div>
+                        <div class="contact-box">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-box">
+                            <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+                        </div>
+                    </div>
+                    <div >
+                        <div class="contact-box">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div  class="contact-box">
+                            <a href="">+1 232 3235 324</a>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div  class="contact-box">
+                            <i class="far fa-envelope"></i>
+                        </div>
+                        <div  class="contact-box">
+                            <a href="">youremail@domain.com</a>
+                        </div>
+                    </div>
+                </div>

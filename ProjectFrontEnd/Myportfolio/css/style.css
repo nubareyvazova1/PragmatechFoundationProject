@@ -132,7 +132,7 @@ body{
 
 /* about me end */
 /* my Features start */
-#My-Features{
+.Feature-container{
     margin-bottom: 30px;
 }
 .Feature-head h1{
@@ -170,7 +170,7 @@ body{
     height:360px;
 }
 .Feature-info h1{
-    font-size:40px ;
+    font-size:40px;
     color: #007bff;
     font-weight: 700;
     margin-bottom: 20px;
@@ -255,4 +255,73 @@ body{
 
 
 /*My skills end */
+/*Contact start*/
+
+.contact-info-boxs h1{
+    font-size:40px;
+    color: #007bff;
+    font-weight: 700;
+    margin: 50px;
+    text-align: center;
+
+}
+.contact-info{
+    width: 1140px;
+    height: 114px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+/*.contact-boxs{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content:space-evenly;
+}*/
+.contact-boxs p{
+    color: gray;
+}
+.contact-boxs a{
+    color: #007bff;
+    text-decoration: none; 
+    padding-left: 70px;
+}
+.contact-boxs span{
+    color: #007bff;
+    display: block;
+    padding-left: 80px;
+    
+     
+}
+.contact-boxs{
+    width: 379.98px;
+    height: 114px;
+    
+}
+.main-contact-container{
+    width: 1349px; 
+    height: 1071px;
+    padding:80px 0px; 
+    background-color: rgb(245, 245, 245);
+    margin-top: 30px;
+}
+.Contact-container{
+    width: 1014px;
+    height:653px;
+    padding: 48px; 
+    color:#fff;
+
+}
+
+
+
+
+
+
+/*Contact end end */
+
 
