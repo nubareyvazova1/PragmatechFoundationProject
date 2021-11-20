@@ -340,9 +340,26 @@ body{
     background-color: #333333;
     border: 1px solid lawngreen;
     
+    
+    
 
 
 }
+.end-about{
+    border: 1px solid lawngreen;
+    
+
+}
+.end-contact{
+    border: 1px solid rgb(252, 80, 0);
+}
+.end-social{
+    border: 1px solid rgb(130, 0, 252);
+}
+.end-email{
+    border: 1px solid rgb(0, 252, 239);
+}
+
 .end-info h3{
     line-height:2;
     color: #fff; 
@@ -351,6 +368,9 @@ body{
     color: grey;
     text-decoration: none;
     display: block;
+}
+.end-about h3:nth-child(2){
+    color: grey;
 }
 
 
