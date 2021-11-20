@@ -281,7 +281,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     display: flex;
     flex-direction: column;
-    border: 1px solid greenyellow;
+    
 }
 .contact-boxs p{
     color: gray;
@@ -301,7 +301,7 @@ body{
 .contact-boxs{
     width: 379.98px;
     height: 114px;
-    border: 1px solid darkblue;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -312,7 +312,7 @@ body{
     padding:80px 0px; 
     background-color: rgb(236, 233, 233);
     margin-top: 30px;
-    border: 1px solid rgb(148, 33, 67);
+    
 }
 .contact-main-item{
     width: 1014px;
@@ -321,7 +321,7 @@ body{
     margin: 4em;
     margin-left: 5.6em;
     background-color:#fff;
-    border: 1px solid rgb(40, 197, 189);
+    
 }
 
 
@@ -337,8 +337,8 @@ body{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
     background-color: #333333;
-    border: 1px solid lawngreen;
     
     
     
@@ -346,18 +346,38 @@ body{
 
 }
 .end-about{
-    border: 1px solid lawngreen;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
     
 
 }
 .end-contact{
-    border: 1px solid rgb(252, 80, 0);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
 }
 .end-social{
-    border: 1px solid rgb(130, 0, 252);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.end-social h3{
+    display: block;
+    margin-bottom: 24px;
+
+}
+.end-social i{
+    margin: 0px 10px;
 }
 .end-email{
-    border: 1px solid rgb(0, 252, 239);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
 }
 
 .end-info h3{
