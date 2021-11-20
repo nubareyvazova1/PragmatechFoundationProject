@@ -223,7 +223,7 @@ body{
 .skill-box{
     width: 100%;
     height: 666px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(236, 233, 233);
     padding: 2em;
     margin-top: 30px;
     
@@ -272,49 +272,56 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
 
 }
-/*.contact-boxs{
+.contact-boxs{
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     display: flex;
-    justify-content:space-evenly;
-}*/
+    flex-direction: column;
+    border: 1px solid greenyellow;
+}
 .contact-boxs p{
     color: gray;
 }
 .contact-boxs a{
     color: #007bff;
     text-decoration: none; 
-    padding-left: 70px;
+    
 }
 .contact-boxs span{
     color: #007bff;
-    display: block;
-    padding-left: 80px;
+    
+    
     
      
 }
 .contact-boxs{
     width: 379.98px;
     height: 114px;
-    
+    border: 1px solid darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main-contact-container{
     width: 1349px; 
     height: 1071px;
     padding:80px 0px; 
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(236, 233, 233);
     margin-top: 30px;
+    border: 1px solid rgb(148, 33, 67);
 }
-.Contact-container{
+.contact-main-item{
     width: 1014px;
     height:653px;
-    padding: 48px; 
-    color:#fff;
-
+    padding: 48px;
+    margin: 4em;
+    margin-left: 5.6em;
+    background-color:#fff;
+    border: 1px solid rgb(40, 197, 189);
 }
 
 
@@ -322,6 +329,31 @@ body{
 
 
 
-/*Contact end end */
+/*Contact end */
+/* end */
+.end-info{
+    height: 387px;
+    padding: 128px 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #333333;
+    border: 1px solid lawngreen;
+    
+
+
+}
+.end-info h3{
+    line-height:2;
+    color: #fff; 
+}
+.end-contact a{
+    color: grey;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* end */
 
 
