@@ -254,6 +254,7 @@ body{
 
 
 
+
 /*My skills end */
 /*Contact start*/
 
@@ -323,12 +324,36 @@ body{
     background-color:#fff;
     
 }
+.name-info-boxs{
+    display: flex;
+    justify-content: space-between;
+} 
+.contact-main-item h4{
+    font-size: 19px;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: 150;
+}
+.contact-main-item button{
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 30px;
+    
+    padding:14px 30px;
+    border: none;
+    font-size: 16px;
+}
 
 
 
 
-
-
+.contact-main-item h3{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom:48px;
+    color: #000;
+}
 /*Contact end */
 /* end */
 .end-info{
