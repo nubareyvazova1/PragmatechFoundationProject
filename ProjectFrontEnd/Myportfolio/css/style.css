@@ -203,6 +203,16 @@ body{
 
 
 /* my Features end */
+/* my Portfolio start */
+.my-portfolio h1{
+    font-size:40px;
+    color: #007bff;
+    font-weight: 700;
+    margin: 50px;
+    text-align: center;
+
+}
+/* my Portfolio end */
 /*My skills start  */
 .skill-box h1{
     font-size:40px ;
