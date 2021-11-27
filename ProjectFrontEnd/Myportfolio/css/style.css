@@ -204,6 +204,7 @@ body{
 
 /* my Features end */
 /* my Portfolio start */
+
 .my-portfolio h1{
     font-size:40px;
     color: #007bff;
@@ -211,6 +212,42 @@ body{
     margin: 50px;
     text-align: center;
 
+}
+.my-portfolio-item{
+    display: flex;
+    justify-content: center;
+}
+.my-portfolio-item button{
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 20px;
+    border: none;
+    padding:10px 25px;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+      
+}
+.my-portfolio-info{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 6px;
+    width: 1110px;
+    margin-left: 6em;
+    
+    
+    
+}
+.my-portfolio-info div img{
+    width:100%;
+    object-fit: cover;
+    box-sizing: border-box;
+    
+}
+.my-portfolio-info div{
+    width: 253px;
+    
+    
 }
 /* my Portfolio end */
 /*My skills start  */
@@ -234,7 +271,9 @@ body{
     width: 100%;
     height: 666px;
     background-color: rgb(236, 233, 233);
-    padding: 2em;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom:2em;
     margin-top: 30px;
     
 }
@@ -261,6 +300,10 @@ body{
 .skill-info div h3{
     margin-bottom: 10px;
 }
+.my-portfolio-info div:first-child{
+    height: 281px;
+} 
+.my-portfolio-info div:nth-child()
 
 
 
