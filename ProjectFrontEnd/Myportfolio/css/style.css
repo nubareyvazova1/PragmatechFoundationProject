@@ -310,8 +310,15 @@ body{
 
 /*My skills end */
 /*Contact start*/
-
-.contact-info-boxs h1{
+.main-contact-container {
+    font-size:40px;
+    color: #007bff;
+    font-weight: 700;
+    margin: 50px;
+    text-align: center;
+}
+   
+.contact-item-boxs h1{
     font-size:40px;
     color: #007bff;
     font-weight: 700;
@@ -381,19 +388,53 @@ body{
     display: flex;
     justify-content: space-between;
 } 
-.contact-main-item h4{
-    font-size: 19px;
+.contact-item label{
+    display:block ;
+    margin-bottom: 8px;
+    margin-top: 5px;
     color: #000;
-    margin-bottom: 10px;
-    font-weight: 150;
 }
+.contact-item input{
+    width: 100%;
+    height: 29px;
+    border-radius: 30px;
+    border: 1px solid #ced4da;
+    padding: 6px 12px;
+    
+}
+.name-info input{
+    width: 466px;
+}
+
+
 
 .message-container{
     display: grid;
 }
-.message-container input{
-    margin-bottom: 24px;
+.message-container textarea{
+    margin-bottom: 4px;
+    resize: vertical;
+    border-radius: 30px;
+    border: 1px solid #ced4da;
+    padding: 4px 12px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+
 }
+.message-container button{
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 30px;
+    border: none;
+    padding:10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 23px;
+    
+}
+
 
 
 
