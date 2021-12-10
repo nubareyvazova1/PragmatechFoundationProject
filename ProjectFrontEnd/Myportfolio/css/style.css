@@ -29,10 +29,6 @@
     align-items: center;
     flex-direction: column;
 }
-.greetings-box a.active{
-    background-color: #000
-    ;
-}
 
     
 
@@ -65,16 +61,15 @@ body{
     color: #fff;
     background-color: #007bff;
     border-radius: 30px;
-    
+    cursor: pointer;
     padding:14px 30px;
     border: none;
-    font-size: 16px;
-    
-    
-
-
-    
+    font-size: 16px; 
 }
+.active ,.greetings-box button:hover {
+    background-color:black;
+    color: white;
+  }
 .greetings-box h1{
     font-size:3rem;
     margin-bottom: 12px;
@@ -187,13 +182,23 @@ body{
     margin-bottom: 20px; 
 }
 .Feature-info button{
-    color: #fff;
     background-color: #007bff;
     border-radius: 30px;
     border: none;
     padding:13px 33px;
+    
+    
+
+}
+.Feature-info button a{
+    text-decoration: none;
+    color:#fff ;
     font-size: 16px; 
 }
+.active ,.Feature-info button:hover {
+    background-color:black;
+    color: white;
+  }
 .Feature-info{
     width: 445px;
     height: 347px;
@@ -222,16 +227,28 @@ body{
     justify-content: center;
 }
 .my-portfolio-item button{
-    color: #fff;
+    
     background-color: #007bff;
     border-radius: 20px;
     border: none;
     padding:10px 25px;
-    font-size: 13px;
     margin-left: 30px;
     margin-bottom: 50px;
+    cursor: pointer;
+    
       
 }
+.my-portfolio-item button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.my-portfolio-item button a:hover{
+    color: black;   
+}
+.active,.my-portfolio-item button:hover {
+    background-color:rgb(236, 233, 233);
+  }
 .my-portfolio-info{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -433,13 +450,23 @@ body{
     border-radius: 30px;
     border: none;
     padding:10px 30px;
-    font-size: 16px;
+    
     cursor: pointer;
     margin-top: 23px;
     width: 167px;
     height: 44px;
     
 }
+.message-container button a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+
+}
+.active, .message-container button:hover {
+    background-color:black;
+    color: white;
+  }
 
 
 
