@@ -242,6 +242,8 @@ body{
     text-decoration: none;
     color: #fff;
     font-size: 13px;
+    width: 20px;
+    height: 15px;
 }
 .my-portfolio-item button a:hover{
     color: black;   
