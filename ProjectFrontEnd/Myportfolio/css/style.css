@@ -553,10 +553,7 @@ body{
 .end-about h3:nth-child(2){
     color: grey;
 }
-hr{
-    width: 1116px;
-    height: 0px;
-}
+
 
 
 /* end */
