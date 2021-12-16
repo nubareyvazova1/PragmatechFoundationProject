@@ -377,9 +377,6 @@ body{
 }
 .contact-boxs span{
     color: #007bff;
-    
-    
-    
      
 }
 .contact-boxs{
@@ -423,14 +420,10 @@ body{
     border-radius: 30px;
     border: 1px solid #ced4da;
     padding: 6px 12px;
-    
 }
 .name-info input{
     width: 466px;
 }
-
-
-
 .message-container{
     display: grid;
 }
@@ -444,7 +437,6 @@ body{
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
-
 }
 .message-container button{
     color: #fff;
@@ -470,10 +462,6 @@ body{
     color: white;
   }
 
-
-
-
-
 .contact-main-item h3{
     font-size: 25px;
     font-weight: 400;
@@ -487,29 +475,23 @@ body{
     height: 387px;
     padding: 128px 0px;
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-
-    
-    
-    
-    
-
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 .container-end{
     background-color: #333333;
 }
-
-    
-
 .end{
     
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 425px;
     color: #fff;
     margin-bottom: 30px;
 }
@@ -531,6 +513,13 @@ body{
 .end h3:nth-child(2){
     color: grey;
 }
+
+
+
+
+
+
+
 
 
 
