@@ -497,6 +497,7 @@ body{
 }
 .end i{
     margin: 0px 10px;
+    color: grey;
 }
 
 .end h3{
@@ -510,9 +511,7 @@ body{
     text-decoration: none;
     display: block;
 }
-.end h3:nth-child(2){
-    color: grey;
-}
+
 
 
 
