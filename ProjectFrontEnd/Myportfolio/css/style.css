@@ -471,51 +471,74 @@ body{
 }
 /*Contact end */
 /* end */
-.end-info{
-    height: 387px;
-    padding: 128px 0px;
-    width: 100%;
-    padding-right: 30px;
-    
-    
-
-}
-.container-end{
+.main-end-container{
     background-color: #333333;
-    height: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    
+    
    
 }   
-.end{
-    width: 1100px;
+.end-container{
+    width: 1050px;
     height: 200px;
     margin: auto 0;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-columns: 7fr 3fr 4fr 5fr;
     gap: 15px;
     color: #fff;
     margin-bottom: 30px;
     padding-left: 50px;
+    padding-top: 7rem;
     
 }
-.end i{
+.main-end-container i{
     margin: 0px 10px;
     color: grey;
 }
 
-.end h3{
+.main-end-container h3{
     line-height:2;
     color: #fff; 
     display: block;
     margin-bottom: 20px;
 }
-.end a{
+.main-end-container a{
     color: grey;
     text-decoration: none;
     display: block;
 }
+.main-end-container p{
+    color: grey;
+    
+}
+.end-box{
+    border-left:#fff;
+    width:700px;
+    height:70px;
+}
 
-.container-end d
+.send-message{
+    display: flex;
+}
+.send-message input{
+    height: 45px;
+    width: 180px;
+    border:1px solid gray;
+    background-color:#333333 ;
 
+}
+.send-message button{
+    height: 35px;
+    width: 90px;
+    padding: 20px 20px 10px 10px ;
+    border: none;
+    margin: auto 0px;
+
+
+}
 
 
 
