@@ -133,6 +133,7 @@ body{
 /* my Features start */
 .Feature-container{
     margin-bottom: 30px;
+    
 }
 .Feature-head h1{
    text-align: center;
@@ -222,6 +223,11 @@ body{
     text-align: center;
 
 }
+.my-portfolio {
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+}
 .my-portfolio-item{
     display: flex;
     justify-content: center;
@@ -282,6 +288,8 @@ body{
     text-align: center;
     margin-top: 40px;
 }
+
+
 .skill-info{
     width: 1140px;
     height: 554px;
@@ -307,9 +315,10 @@ body{
     
 }
 .skill-info div h2{
-    font-size: 20px;
+    font-size: 22px;
     color: #000;
     margin-bottom: 10px;
+    font-weight: 480;
 }
 .skill-info div a{
     font-size: 18.5px;
@@ -322,6 +331,10 @@ body{
 }
 .skill-info div h3{
     margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 100;
+    line-height: 1.3;
+    
 }
 .my-portfolio-info div:first-child{
     height: 281px;
@@ -484,7 +497,6 @@ body{
 .end-container{
     width: 1050px;
     height: 200px;
-    margin: auto 0;
     display: grid;
     grid-template-columns: 7fr 3fr 4fr 5fr;
     gap: 15px;
@@ -492,6 +504,7 @@ body{
     margin-bottom: 30px;
     padding-left: 50px;
     padding-top: 7rem;
+
     
 }
 .main-end-container i{
@@ -504,6 +517,8 @@ body{
     color: #fff; 
     display: block;
     margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 120;
 }
 .main-end-container a{
     color: grey;
@@ -526,18 +541,31 @@ body{
 .send-message input{
     height: 45px;
     width: 180px;
-    border:1px solid gray;
     background-color:#333333 ;
-
+    border: 1px solid gray;
+    border-right:none;
+    border-radius: 20px;
 }
 .send-message button{
     height: 35px;
     width: 90px;
-    padding: 20px 20px 10px 10px ;
+    padding: 17px 20px 29px 20px ;
     border: none;
     margin: auto 0px;
+    border: 1px solid gray;
+    border-right:none;
+    border-radius: 20px;
 
 
+}
+.end-box{
+    width: 700px;
+    height: 100px;
+    border: none;
+    border-top: 1px solid gray;
+    padding: 40px;
+    margin-top: 50px;
+    text-align: center;
 }
 
 
