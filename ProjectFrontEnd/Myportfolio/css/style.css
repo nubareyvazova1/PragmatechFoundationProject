@@ -78,9 +78,9 @@ body{
     font-size: 16px; 
     
 }
-.active ,.greetings-box button:hover {
-    background-color:black;
-    color: white;
+.greetings-box button:hover {
+    background-color:white;
+    color: black;
   }
 .greetings-box h1{
     font-size:3rem;
@@ -447,9 +447,17 @@ body{
     border-radius: 30px;
     border: 1px solid #ced4da;
     padding: 6px 12px;
+    outline: none;
 }
+.contact-item input:focus {
+    border: 1px solid #007bff ;
+  }
 .name-info input{
     width: 466px;
+    outline: none;
+}
+.name-info input:focus{
+    border: 1px solid #007bff ; 
 }
 .message-container{
     display: grid;
@@ -464,6 +472,10 @@ body{
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
+    outline: none;
+}
+.message-container textarea:focus{
+    border: 1px solid #007bff ;
 }
 .message-container button{
     color: #fff;
