@@ -64,6 +64,11 @@ body{
 }
 .logo p{
     padding-left: 30px;
+    display: inline-block;
+
+}
+.logo{
+    display: inline-block;
 }
 .greetings-box{
     padding-top: 90px;
