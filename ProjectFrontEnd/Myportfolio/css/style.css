@@ -26,17 +26,7 @@ body{
     z-index: 90px;
     transition: 0.4s;
 }
-/*@media screen and (max-width: 580px){
-    .navbar-nav ul il a:hover{
-        color: black;
-        background-color: white;
 
-    }
-    .navbar-nav ul il a:active{
-
-    }
-}
-*/
 
 .logo{
     line-height: 1.2;
@@ -390,6 +380,9 @@ body{
 
 
 /*My skills end */
+/*Testimonials start */
+
+/*Testimonials end */
 /*Contact start*/
 .main-contact-container {
     font-size:40px;
