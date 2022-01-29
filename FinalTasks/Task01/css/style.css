@@ -56,6 +56,74 @@ body{
     color: #fff;
 }
 
+.material-parallax-boxs{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   
+}
+.parallax-content-box{
+    position:absolute;
+     top: 0;
+    left: -1px;
+    right: -1px;
+    bottom: 0; 
+    z-index: 0;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.material-parallax-boxs img{
+    width: 100%;
+    height: 585px;
+   
+}
+.parallax-content-box h2 {
+    color:#fff;
+    line-height: 1.125;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align:center;
+}
+.text-primary{
+    color:#5dd39e;
+}
+.parallax-content-box p{
+    color:#fff;
+    margin-top: 35px;
+    line-height: 1.33333;
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 41.66667%;
+    text-align: center;
+}
+.parallax-btn{
+    cursor:pointer;
+    margin-top: 65px;
+    background-color: transparent;
+   border: 2px solid #5dd39e;
+    min-width: 200px;
+    border-radius: 25px;
+    white-space: nowrap;
+    text-align: center;
+    padding: 5px 25px;
+    font-size: 0.875rem;
+    line-height: 1.9;
+    transition: .3s ease-out;
+}
+.parallax-btn:hover{
+    background-color: #5dd39e;
+
+}
+.parallax-btn a{
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#fff;
+    text-decoration: none;
+}
+
 /*ABOUTend*/
 .main-apout-container h3{
     font-size:36px;
@@ -238,7 +306,7 @@ body{
     cursor:pointer;
     margin-top: 65px;
     background-color: #5dd39e;
-   border: 2px solid #5dd39e;
+    border: 2px solid #5dd39e;
     min-width: 200px;
     border-radius: 25px;
     white-space: nowrap;
@@ -247,12 +315,146 @@ body{
     font-size: 0.875rem;
     line-height: 1.9;
     transition: .3s ease-out;
+    color: #fff;
+    font-weight: 700;
    
 }
-.parallax-content-btm a{
-    font-weight: 700;
-    text-transform: uppercase;
+/*TESTIMONIALSend*/
+/*NEWSstart*/
+.news-container{
+    background-image: url(../img/parallax-05.jpg);
+    background-position: 50%;
+    margin-top: 40px;
+    
+}
+.news-container-elements{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 639px;
+        
+        
+}
+    
+.text-white{
+    color: #fff;
+    line-height: 1.5;
+    font-size: 36px;
+    font-weight: 500;
+        
+}
+.news-parallaxp{
+    line-height: 1.33333;
+    font-size: 18px;
+    color:#fff;
+    margin-top:35px;
+}
+a{
+    text-decoration: none;
+}
+.news-btn{
+    cursor:pointer;
+    margin-top: 65px;
+    background-color: #5dd39e;
+    border: 2px solid #5dd39e;
+    min-width: 200px;
+    border-radius: 25px;
+    white-space: nowrap;
+    text-align: center;
+    padding: 5px 25px;
+    font-size: 0.875rem;
+    line-height: 1.9;
+    transition: .3s ease-out;
+}
+.news-parallax p{
+    color:#fff;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: 1.33333;
+    font-size: 18px;
+}
+.news-btn a{
+    font-weight: 700; 
     color:#fff;
     text-decoration: none;
 }
+/*NEWSend*/
+/* end*/
+#end-main-contaner{
+    background-color:#131313; 
+    height: 317px;
+
+}
+.end-container img{
+    margin-bottom: 58px;
+    
+}
+.end-container img:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.08); 
+    transform: scale(1.08); 
+  }
+.end-container{
+    text-align: center;
+    margin-top: 85px;
+    box-sizing: border-box;
+    padding-top: 75px;
+}
+.end-icons{
+    padding-top: 25px;
+    font-size: 19px
+}
+.end-icons ul{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.end-icons ul li i{
+    margin-right: 5px;
+    color: #fff;
+    
+}
+.end-container p span{
+    box-sizing: border-box;
+    line-height: 21px;
+    font-size: 12px;
+    font-weight: 300;
+    
+    
+
+}
+.end-container p{
+    margin-top: 7px;
+}
+.text-gray{
+    color: #888; 
+}
+.text-white{
+    color: #fff;
+    
+
+
+}
+.end-icon{
+  background-color:#333; 
+  width: 37px;
+  height: 37px;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: 0.4s;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  
+}
+.end-icon:hover {
+    background-color:#131313;
+    border: 1.5px solid #fff;
+    
+}
+/*end*/
 
