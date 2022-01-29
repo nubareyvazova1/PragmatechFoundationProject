@@ -1,0 +1,213 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
+} 
+#home{
+    background-image:url(../img/slide-03.jpg);
+    object-fit:cover;
+    background-position: 80% center;
+    height: 650px;
+}
+#navbar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-container{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.navbar-menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-menu ul li{
+    list-style-position: none;
+
+}
+.navbar-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+
+
+}
+.home-container h1{
+   font-size: 50px;
+   font-weight: 400;
+   
+
+}
+.form-section{
+    width: 470px;
+    height: 478px;
+    background-color: #fff;
+    color: black;
+    border-radius:10px;
+}
+.teachSolarPanels{
+    color: #fff;
+}
+.eco{color:#5dd39e;
+
+}
+.home-container p{
+    color: #fff;
+}
+
+/*ABOUTend*/
+.main-apout-container h3{
+    font-size:36px;
+    color: #333;
+    line-height: 1.5;
+    font-weight: 500;
+    
+}
+.main-apout-container p{
+    font-size: 12px;
+    color: #888;
+}
+.main-apout-container{
+    text-align: center;
+}
+.about-box{
+    border-top: 1px solid #eee;
+    margin: 57px;
+    padding: 40px;
+}
+.about-box p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.33333;
+    text-align: center;
+}
+.about-images{
+    width: 100%;
+    height: 333.5px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+
+}
+.img-element{
+    box-sizing: border-box;
+}
+.img-element img{
+    object-fit: cover;
+    width: 100%;
+    height: 333.5px;
+}
+.advantages-container h3{
+    line-height: 1.5;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    color: #333;
+}
+.text-primary{
+    color: #5dd39e;
+}
+.advantages-container{
+    padding: 90px;
+}
+.about-advantages-elements{
+    width: 100%;
+    height: 103px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    margin-left: 15px;
+    margin-bottom: 27px;
+}
+.unit-body h6{
+    line-height: 1.33333;
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+
+}
+.unit-body{
+    text-align: left;
+    margin-right: 30px;
+    width: 281px;
+}
+.unit-body p{
+    color: #888;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 300;
+}
+.advantages-element{
+    display: flex;
+    justify-content: space-between;
+}
+.about-advantages{
+    margin-top: 55px;
+}
+
+/*TESTIMONIALSstart*/
+.testimonials-header{
+    line-height: 1.5;
+    font-size: 36px;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+}
+.testimonials-header hr{
+    width: 56px;
+    height: 8px;
+    padding: 0;
+    margin: 21px auto 21px;
+    background: #eee;
+    border: none;
+}
+.testimonials-boxs{
+    width: 100%;
+    height: 132px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+.testimonials-about-box{
+    width: 397px;
+    display: flex;
+    justify-content: space-between;
+}
+.testimonials-container h6{
+    font-size: 14px;
+    line-height: 0.8;
+    font-weight: 900;
+    color: #252525;
+}
+.testimonials-container i{
+    font-size: 12px;
+    margin-top: -5px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.92857;
+    color: #888;
+
+
+}
+
+.testimonials-container p{
+    margin-top: 8px;
+    line-height: 21px;
+    font-size: 12px;
+    color: #888;
+}
+.testimonials-image img{
+    border-radius: 70px;
+    
+}
+.testimonials-image{
+    margin-left:27px;
+}
+.testimonials-container{
+    margin-left: 27px;
+}
