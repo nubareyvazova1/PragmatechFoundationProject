@@ -211,3 +211,48 @@ body{
 .testimonials-container{
     margin-left: 27px;
 }
+.parallax-main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    object-fit:cover;
+    background-position: 80% center;
+    height: 418px;
+    background-image:url(../img/parallax-01.jpg);
+    
+}
+
+.parallax-content h3{
+    color: #fff;
+    line-height: 1.5;
+    font-size: 34px;
+    font-weight: 400;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+
+.testimonials-btn{
+    cursor:pointer;
+    margin-top: 65px;
+    background-color: #5dd39e;
+   border: 2px solid #5dd39e;
+    min-width: 200px;
+    border-radius: 25px;
+    white-space: nowrap;
+    text-align: center;
+    padding: 5px 25px;
+    font-size: 0.875rem;
+    line-height: 1.9;
+    transition: .3s ease-out;
+   
+}
+.parallax-content-btm a{
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#fff;
+    text-decoration: none;
+}
+
