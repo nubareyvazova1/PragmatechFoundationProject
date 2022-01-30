@@ -8,54 +8,296 @@ body{
     object-fit:cover;
     background-position: 80% center;
     height: 650px;
+    margin-bottom: 30px;
 }
-#navbar-nav{
-    display: flex;
-    justify-content: space-between;
-}
+/*elave*/
 
-.home-container{
-    display: flex;
-    justify-content:space-around;
+#navbar-nav{
+    height:76px;
+   
+ 
+
+}
+.navbar-nav-container{
+    margin:0 80px; 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
     
+
+}
+.phone-text{
+    color:#fff;
+    text-decoration:none;
 }
 .navbar-menu ul{
-    display: flex;
-    justify-content: space-between;
-}
-.navbar-menu ul li{
-    list-style-position: none;
-
+    display:flex;
+    justify-content:space-between;
 }
 .navbar-menu ul li a{
-    text-decoration: none;
+    text-decoration:none;
+    margin:20px;
+    color:#fff;
+    background: transparent;
+    line-height: 1.2;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.navbar-menu ul li a:hover{
+    color:#5dd39e;
+    border-bottom: 3px solid #5dd39e ;
+    padding:20px 0px;
+}
+.fas {
+    float: left;
+    padding-right: 10px;
+    color:#5dd39e;
+     font-size:20px;
+}
+.phone-number{
+    text-decoration:none;
+    color:#fff;
+    background: transparent;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    transition: .4s ease-out;
+}
+.phone-number:hover{
+    color:#5dd39e;
+}
+
+.opening-container{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:0 70px;
+}
+
+.opening-content h1{
+    font-size:60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin:30px auto;
+    line-height: 1.16667;
+    min-width: 450px;
+    
+}
+
+.text-primary{
+    color: #5dd39e;
+
+}
+.text-white{
+    color:#fff;
+}
+
+.opening-content p{
+    font-size:18px;
     color: #fff;
-
-
+   max-width: 450px;
+   font-weight: 300;
+   line-height: 1.33333;
+ 
+  
 }
-.home-container h1{
-   font-size: 50px;
-   font-weight: 400;
-   
-
+.btn{
+    margin:30px ;
+    color: #fff;
+    background-color: #5dd39e;
+    border-color: #5dd39e;
+    border:1px solid transparent;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .3s ease-out;
+    min-width: 200px;
+    border-radius: 25px;
+    border-width: 2px;
+    padding: 5px 25px;
+    font-size: 0.875rem;
+    line-height: 1.9;
+    cursor:pointer;
 }
+.btn:hover{
+    background-color: #20c997;
+}
+
 .form-section{
-    width: 470px;
-    height: 478px;
-    background-color: #fff;
-    color: black;
-    border-radius:10px;
-}
-.teachSolarPanels{
-    color: #fff;
-}
-.eco{color:#5dd39e;
+    background: #fff; 
+    border-radius: 6px;
+    padding: 40px 35px;
+    box-shadow: 0 0 30px 10px rgb(0 0 0 / 20%);
+     max-width: 41.66667%;
+     box-sizing: border-box;
+     height:475px;
+     width:475px;
+     margin-bottom: 70px;
+     display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
-.home-container p{
-    color: #fff;
+.form-section h5{
+    color:#333;
+    line-height: 1.2;
+    font-size: 20px;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 30px;;
+    
 }
 
+.form-btn{
+    margin:30px ;
+    color: #fff;
+    background-color: #5dd39e;
+    border-color: #5dd39e;
+    border:1px solid transparent;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .3s ease-out;
+    min-width: 200px;
+    border-radius: 25px;
+    border-width: 2px;
+    padding: 5px 25px;
+    font-size: 0.875rem;
+    line-height: 1.9;
+    cursor:pointer;
+    
+}
+.form-btn:hover{
+    background-color: #20c997;
+}
+.form-wrap{
+    position: relative;
+    margin-bottom: 10px;
+   
+}
+.form-label{
+    position: absolute;
+    top: 21px;
+    left: 25px;
+    font-size: 14px;
+    color: #aaa;
+    font-style: italic;
+    pointer-events: none;
+    z-index: 9;
+    transition: .3s;
+    transform: translateY(-50%);
+}
+.form-input{
+    box-sizing: border-box;
+   
+    width: 100%;
+    height: 40px;
+    padding: 5px 25px;
+    font-size: 14px;
+    color: #aaa;
+    background-color: #f5f5f5;
+    background-image: none;
+    border: 1px solid #ddd;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    border-radius: 6px;
+    font-style: italic;
+    line-height: 28px;
+}
+option{
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+
+}
+  
+.products-content h3{
+    line-height: 1.5;
+    font-size: 36px;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:#333
+
+}
+
+.products-elements{
+    margin-top:50px;
+    margin-bottom:-30px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+    margin-left:75px;
+    margin-right:75px;
+    box-sizing:border-box;
+    
+    
+}
+.products-element{
+    
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 0 30px 10px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    
+    
+}
+.products-element img{
+    object-fit: cover;
+    width: 100%;
+}
+.products-element h6{
+    text-align:left;
+    padding: 15px 38px;
+    color:#333;
+    line-height: 1.33333;
+    font-size: 18px;
+    font-weight:600;
+}
+.products-element a{
+    cursor:pointer;
+    text-decoration: none;
+    color:#333;
+    transition: .3s all ease;
+}
+.products-element a:hover{
+    color: #5dd39e;
+}
+.products-btn{
+    cursor:pointer;
+    margin-top: 65px;
+    background-color: #5dd39e;
+   border: 2px solid #5dd39e;
+    min-width: 200px;
+    border-radius: 25px;
+    white-space: nowrap;
+    text-align: center;
+    padding: 5px 25px;
+    font-size: 0.875rem;
+    line-height: 1.9;
+    transition: .3s ease-out;
+    
+   
+}
+.products-btn:hover{
+    background-color: #20c997;
+}
+.products-btn a{
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#fff;
+    text-decoration: none;
+}
+.button-btn{
+    width:1330px;
+    
+    display: flex;
+    justify-content: center;
+}
 .material-parallax-boxs{
     position: relative;
     z-index: 1;
@@ -123,8 +365,95 @@ body{
     color:#fff;
     text-decoration: none;
 }
+/*elave*/
+/*PRODUCTSstart*/
 
-/*ABOUTend*/
+
+.products-content-elements{
+    margin-top:50px;
+    margin-bottom:-30px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+    margin-left:75px;
+    margin-right:75px;
+    box-sizing:border-box;
+    
+    
+}
+.products-element{
+    
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 0 30px 10px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    
+    
+}
+.products-element img{
+    object-fit: cover;
+    width: 100%;
+}
+.products-element h6{
+    text-align:left;
+    padding: 15px 38px;
+    color:#333;
+    line-height: 1.33333;
+    font-size: 18px;
+    font-weight:600;
+}
+.products-element a{
+    cursor:pointer;
+    text-decoration: none;
+    color:#333;
+    transition: .3s all ease;
+}
+.products-element a:hover{
+    color: #5dd39e;
+}
+.products-btn{
+    cursor:pointer;
+    margin-top: 85px;
+    background-color: #5dd39e;
+    margin-bottom: 20px;
+    border: 2px solid #5dd39e;
+    min-width: 200px;
+    border-radius: 25px;
+    white-space: nowrap;
+    text-align: center;
+    padding: 5px 25px;
+    font-size: 0.875rem;
+    line-height: 1.9;
+    transition: .3s ease-out;
+    
+   
+}
+#products-container hr{
+    color: #eee;
+    margin-bottom:60px;
+    margin-top: 50px;
+    width: 1000px;
+    text-align: center;
+}
+.products-btn:hover{
+    background-color: #20c997;
+}
+.products-btn a{
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#fff;
+    text-decoration: none;
+}
+.button-btn{
+    width:1330px;
+    
+    display: flex;
+    justify-content: center;
+}
+ 
+
+/*PRODUCTSend*/
+
 .main-apout-container h3{
     font-size:36px;
     color: #333;
@@ -215,6 +544,9 @@ body{
 }
 
 /*TESTIMONIALSstart*/
+#testimonials-main-container{
+    margin-bottom: 50px;
+}
 .testimonials-header{
     line-height: 1.5;
     font-size: 36px;
@@ -238,7 +570,8 @@ body{
     margin-top: 100px;
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+
     
 }
 .testimonials-about-box{
@@ -321,8 +654,52 @@ body{
 }
 /*TESTIMONIALSend*/
 /*NEWSstart*/
-.news-container{
-    background-image: url(../img/parallax-05.jpg);
+/*elave*/
+.news-boxs{
+    margin-top:50px;
+    
+}
+.news-boxs h3{
+    line-height: 1.5;
+    font-size: 36px;
+    font-weight: 500;
+    color: #333;
+    text-align:center;
+    text-decoration: none;
+    
+}
+.news-img{
+
+    display:grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    width:1200px;
+    height:380px;
+    margin-bottom:50px;
+    margin-top:50px;
+    margin-left:70px;
+    gap:10px;
+}
+
+.news-img-content img{
+    border-radius:10px;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.news-img-content h5{
+   font-size: 20px; 
+   color:#fff;
+   text-transform: uppercase;
+
+}
+.news-img-element p{
+    color:#fff;
+    font-size:16px;
+}
+/*elave*/
+#news-container{
+    
     background-position: 50%;
     margin-top: 40px;
     
@@ -332,6 +709,9 @@ body{
     align-items: center;
     justify-content: space-around;
     height: 639px;
+    background-image: url(../img/parallax-05.jpg);
+    background-position: 50%;
+    margin-top: 40px;
         
         
 }
@@ -380,6 +760,165 @@ a{
     text-decoration: none;
 }
 /*NEWSend*/
+/* contactstart*/
+#contacts{
+    margin-top:50px;
+}
+.contact-info h3{
+    line-height: 1.5;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 700;
+    text-align:center;
+
+}
+.contact-boxs{
+    border-top:1px solid #eee;
+    margin:50px 50px 0px 50px;
+    padding: 0 px 40px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+}
+.contact-element{
+    border-right:1px solid #eee;
+    padding-right:70px;
+    padding-top:40px;
+    margin-left:20px;
+}
+.contact-content-element{
+    display:flex;
+    justify-content: space-between;
+    margin:20px 0px;
+}
+.contact-img img{
+    border-radius: 6px;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.contact-adress{
+    width:225px;
+    height:170px;
+    margin-left:30px;
+}
+.contact-adress h6{
+    margin-top: 10px;
+    line-height: 1.33333;
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+}
+.contact-adress p{
+    margin-top: 8px;
+    line-height: 21px;
+    color:#888;
+}
+ 
+table{
+ width:100%;
+ margin-top:25px;   
+}
+.phone-text{
+    font-weight: 700;
+    color:#333;
+}
+table a{
+    color:#888;
+    font-weight: 400;
+}
+table a:hover{
+    color:#5dd39e
+}
+
+.contact-form{
+    background: #fff; 
+    margin-right:40px;
+    margin-top:20px;
+     max-width: 41.66667%;
+     box-sizing: border-box;
+     height:475px;
+     width:475px;
+     display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-form h5{
+    color:#333;
+    line-height: 1.2;
+    font-size: 20px;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;;
+    
+}
+
+.form-btn{
+    margin:30px ;
+    color: #fff;
+    background-color: #5dd39e;
+    border-color: #5dd39e;
+    border:1px solid transparent;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .3s ease-out;
+    min-width: 200px;
+    border-radius: 25px;
+    border-width: 2px;
+    padding: 5px 25px;
+    font-size: 0.875rem;
+    line-height: 1.9;
+    cursor:pointer;
+    
+}
+.form-btn:hover{
+    background-color: #20c997;
+}
+.form-wrap{
+    position: relative;
+    margin-bottom: 10px;
+   
+}
+.form-label{
+    position: absolute;
+    top: 21px;
+    left: 25px;
+    font-size: 14px;
+    color: #aaa;
+    font-style: italic;
+    pointer-events: none;
+    z-index: 9;
+    transition: .3s;
+    transform: translateY(-50%);
+}
+.contact-form-input{
+    box-sizing: border-box;
+   
+    width: 475px;
+    height: 40px;
+    padding: 5px 25px;
+    font-size: 14px;
+    color: #aaa;
+    background-color: #f5f5f5;
+    background-image: none;
+    border: 1px solid #ddd;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    border-radius: 6px;
+    font-style: italic;
+    line-height: 28px;
+}
+option{
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+
+}
+/* contactstart*/
 /* end*/
 #end-main-contaner{
     background-color:#131313; 
