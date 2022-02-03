@@ -1,9 +1,7 @@
 tpl=(23,45,12,67)
-
+element=int(input())
 def addToTuple(element):
-    new_element(4)
-    tpl=tpl + new_element
-  # Bu hissəni dəyişdirin
-    print(tpl)
-    pass
+  newtpl=list(tpl)
+  newtpl=newtpl+element
+  print(newtplpy)
 addToTuple()

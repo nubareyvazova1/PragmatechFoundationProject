@@ -30,16 +30,29 @@
 #    if i.isupper():
 #       say+=1
 # print(say)
- 
-   
-def outer_fun(a,b ):
-    def inner_fun(c,d ):
-        return c+d
-    return inner_fun(a, b)
-    return a
-res= outer_fun(5,10 )
-print(res)
-   
+#arr=['Samir','Mehemmed','Qurbani','Vesile','Qurbaneli','Memmedaga','Nurlan','Leman','Emil','Gulshen']
+#print(len(arr))
+#arr=['Samir','Mehemmed','Qurbani','Vesile','Qurbaneli','Memmedaga','Nurlan','Leman','Emil','Gulshen']
+#say=0
+#for i in arr:
+#    for a in i:
+#        say=say+1
+#        print(say)
+#arr=['Samir','Mehemmed','Qurbani','Vesile','Qurbaneli','Memmedaga','Nurlan','Leman','Emil','Gulshen']
+#for i in arr:
+#    for a in i:
+#        if a == "m":
+#            print(i)
+#arr=['Samir','Mehemmed','Qurbani','Vesile','Qurbaneli','Memmedaga','Nurlan','Leman','Emil','Gulshen']
+#newArr=list(arr)
+#arr.extend(newArr)
+#print(arr)
+
+
+    
+    
+
+    
    
    
    
