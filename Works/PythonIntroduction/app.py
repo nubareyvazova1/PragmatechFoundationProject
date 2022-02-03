@@ -30,24 +30,41 @@
 #    if i.isupper():
 #       say+=1
 # print(say)
-#arr=['Samir','Mehemmed','Qurbani','Vesile','Qurbaneli','Memmedaga','Nurlan','Leman','Emil','Gulshen']
-#print(len(arr))
-#arr=['Samir','Mehemmed','Qurbani','Vesile','Qurbaneli','Memmedaga','Nurlan','Leman','Emil','Gulshen']
-#say=0
-#for i in arr:
-#    for a in i:
-#        say=say+1
-#        print(say)
-#arr=['Samir','Mehemmed','Qurbani','Vesile','Qurbaneli','Memmedaga','Nurlan','Leman','Emil','Gulshen']
-#for i in arr:
-#    for a in i:
-#        if a == "m":
-#            print(i)
-#arr=['Samir','Mehemmed','Qurbani','Vesile','Qurbaneli','Memmedaga','Nurlan','Leman','Emil','Gulshen']
-#newArr=list(arr)
-#arr.extend(newArr)
-#print(arr)
+arr=['Samir','Mehemmed','Qurbani','Vesile','Qurbaneli','Memmedaga','Nurlan','Leman','Emil','Gulshen']
+print(len(arr))
 
+say=0
+for i in arr:
+    for a in i:
+        say=say+1
+        print(say)
+
+for i in arr:
+    for a in i:
+        if a == "m":
+            print(i)
+
+newArr=list(arr)
+arr.extend(newArr)
+print(arr)
+cem = 0
+# for x in range(100):
+#     if x%10>=0 :
+#         cem=cem+x
+        
+print(cem)
+for x in range(501):
+    if x%100>=0 :
+        cem=cem+x
+        
+print(cem)      
+        
+        
+# c = 0
+# for i in range(100):
+#     c = c + i
+
+# print(c)
 
     
     

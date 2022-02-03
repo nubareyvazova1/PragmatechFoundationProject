@@ -16,4 +16,3 @@ print(cem)
 #     c = c + i
 
 # print(c)
-print(type(0xFF))
