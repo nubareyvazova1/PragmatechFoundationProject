@@ -1,4 +1,4 @@
-.flex{
+.display{
     display:flex;
     
 }
@@ -19,21 +19,36 @@
 .text-color{
     color: #fff;
 }
-.btn-button{
-   
-    background-color: #5dd39e;
-    border-color: #5dd39e;
-    border:1px solid transparent;
-    font-weight: 700;
+.text-trasform{
     text-transform: uppercase;
-    transition: .3s ease-out;
+}
+.parallax-btn{
+    cursor:pointer;
+    margin-top: 65px;
+    background-color: transparent;
+    border: 2px solid #5dd39e;
     min-width: 200px;
     border-radius: 25px;
-    border-width: 2px;
+    white-space: nowrap;
+    text-align: center;
     padding: 5px 25px;
     font-size: 0.875rem;
     line-height: 1.9;
+    transition: .3s ease-out;
+}
+.btn-button{
     cursor:pointer;
+    margin-top: 65px;
+    background-color: #5dd39e;
+    border: 2px solid #5dd39e;
+    min-width: 200px;
+    border-radius: 25px;
+    white-space: nowrap;
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 0.875rem;
+    line-height: 1.9;
+    transition: .3s ease-out;
 }
 .btn-button:hover{
     background-color:#20c997;
