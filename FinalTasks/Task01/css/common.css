@@ -49,6 +49,7 @@
     font-size: 0.875rem;
     line-height: 1.9;
     transition: .3s ease-out;
+    font-weight: 700;
 }
 .btn-button:hover{
     background-color:#20c997;
