@@ -20,9 +20,8 @@ body{
 }
 .navbar-nav-container{
     margin:0 80px; 
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+    
+    
     height:100%;
     
 
@@ -59,7 +58,7 @@ body{
 }
 .phone-number{
     text-decoration:none;
-    color:#fff;
+    
     background: transparent;
     font-weight: 700;
     font-size: 18px;
