@@ -52,9 +52,7 @@ body{
     line-height: 1;
     transition: .4s ease-out;
 }
-.phone-number:hover{
-    color:#5dd39e;
-}
+
 
 .opening-container{
     
@@ -210,9 +208,7 @@ option{
     color: #5dd39e;
 }
 
-.products-btn:hover{
-    background-color: #20c997;
-}
+
 
 .material-parallax-boxs{
     position: relative;
@@ -544,7 +540,6 @@ option{
     
 }
 .news-container-elements{
-    display:flex;
     align-items: center;
     justify-content: space-around;
     height: 639px;
@@ -556,7 +551,6 @@ option{
 }
     
 .text-white{
-    color: #fff;
     line-height: 1.5;
     font-size: 36px;
     font-weight: 500;
@@ -565,13 +559,11 @@ option{
 .news-parallax{
     line-height: 1.33333;
     font-size: 18px;
-    color:#fff;
     margin-top:35px;
 }
 
 
 .news-parallax p{
-    color:#fff;
     margin-top: 35px;
     margin-bottom: 20px;
     font-weight: 300;
@@ -587,10 +579,10 @@ option{
 .contact-info h3{
     line-height: 1.5;
     font-size: 36px;
-    text-transform: uppercase;
+    
     color: #333;
     font-weight: 700;
-    text-align:center;
+    
 
 }
 .contact-boxs{
@@ -598,8 +590,7 @@ option{
     margin:50px 50px 0px 50px;
     padding: 0 px 40px;
     box-sizing: border-box;
-    display:flex;
-    justify-content: space-between;
+    
 }
 .contact-element{
     border-right:1px solid #eee;
@@ -608,8 +599,7 @@ option{
     margin-left:20px;
 }
 .contact-content-element{
-    display:flex;
-    justify-content: space-between;
+    
     margin:20px 0px;
 }
 .contact-img img{
@@ -634,6 +624,7 @@ option{
     margin-top: 8px;
     line-height: 21px;
     color:#888;
+    
 }
  
 table{
@@ -737,19 +728,15 @@ option{
     padding-top: 75px;
 }
 .end-icons{
-    padding-top: 25px;
-    font-size: 19px
+    font-size: 19px;
+    
 }
 .end-icons ul{
     justify-content: center;
     
     
 }
-.end-icons ul li i{
-    margin-right: 5px;
-    
-    
-}
+
 .end-container p span{
     box-sizing: border-box;
     line-height: 21px;
@@ -770,7 +757,7 @@ option{
   background-color:#333; 
   width: 37px;
   height: 37px;
-  margin: 4px;
+  margin-right: 4px;
   justify-content: center;
   border-radius: 50px;
   transition: 0.4s;
@@ -778,6 +765,7 @@ option{
   box-sizing: border-box;
   
 }
+
 .end-icon:hover {
     background-color:#131313;
     border: 1.5px solid #fff;
