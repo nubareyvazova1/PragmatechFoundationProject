@@ -1,7 +1,9 @@
 tpl=(23,45,12,67)
-element=int(input())
-def addToTuple(element):
+
+def addToTuple(a):
+  a=3
   newtpl=list(tpl)
-  newtpl=newtpl+element
-  print(newtplpy)
-addToTuple()
+  x=newtpl.append(a)
+  tpl=tuple(x)
+  print(tpl)
+addToTuple(a)
