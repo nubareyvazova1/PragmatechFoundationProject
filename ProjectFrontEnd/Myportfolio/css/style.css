@@ -93,6 +93,7 @@ body{
 }
 .greetings-box{
     padding-top: 90px;
+    margin-top: 40px;
 }
 .greetings-box button{
     color: #fff;
